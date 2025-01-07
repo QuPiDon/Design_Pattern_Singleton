@@ -49,6 +49,7 @@ public class ConfigurationManager  {
         configManager.setProperty("2", "XLM");
         configManager.setProperty("3", "HBAR");
 
+        // Methode aufrufen um Key zu bekommen
         System.out.println("Best Coin: " + configManager.getProperty("2"));
         System.out.println("Alle Konfigurationen:");
         configManager.printAllProperties();
